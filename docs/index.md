@@ -10,4 +10,4 @@ sus respectivas páginas.
 ## Aquí tienes una lista de las prácticas realizadas:
 Pincha en cada una para ver ese ejercicio
 
-* [Práctica 1: Vacuum Cleaner](./).
+* [Práctica 1: Vacuum Cleaner](./vacuum_cleaner.md).
