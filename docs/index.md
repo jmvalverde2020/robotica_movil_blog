@@ -11,4 +11,8 @@ sus respectivas páginas.
 
 Pincha en cada una para ver ese ejercicio
 
-* [Práctica 1: Vacuum Cleaner](./vacuum_cleaner.md).
+### Práctica 1
+
+La primera práctica consiste en el desarrollo de un código para evitar que un robot simulado en Gazebo choque con los obstáculos y limpie la mayor cantidad 
+de espacio posible.
+* [Vacuum Cleaner](./vacuum_cleaner.md).
