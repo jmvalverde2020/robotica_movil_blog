@@ -1,1 +1,1 @@
-# robotica_movil
+# Blog para la asignatura de Robótica Móvil
