@@ -30,7 +30,9 @@ Para ocasiones en las que el láser no detecte objetos, por encontrarse a menor 
 Otras formas de implementar el código podrían ser haciendo que el robot forme una espiral u otros patrones cada cierta cantidad de tiempo. Sin embargo, para esta práctica la aleatoriedad ha dado buen resultado como comprobaremos más adelante por lo que no he visto necesario implementar estos patrones.
 
 ## Máquina de estados
+A continuacion, veremos la máquina de estados implementada. Como podréis observar es muy simple y solo consta de 3 estados que se van alternando según si detecta un obstáculo y el lado en el que lo detecta.
 
+![Máquina de Estados](./media/Maquina_estados.jpg)
 ## Rendimiento de la implementación
 Como veremos a continuación, la implementación usada ha dado un buen rendimiento, llegando a casi todas las zonas del escenario en alrededor de 1h.
 
