@@ -45,6 +45,7 @@ Por último os muestro un video de los primeros minutos de ejecución del códig
 El video trata de alrededor de 5min de ejecución a cámara rápida para que podáis observar el comportamiento del robot.
 
 _En algunas partes puede verse al robot saltar de una posición a otra, esto se debe a la mala conexión a internet._
+
 ![Video del funcionamiento](https://drive.google.com/file/d/1ntEG9PLQ5Jy8CvPsx3WR6oiTrp91ERsP/view?usp=sharing)
 
 [Vuelve al blog](./)
