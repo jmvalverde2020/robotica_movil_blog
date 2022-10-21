@@ -49,7 +49,7 @@ El video trata de alrededor de 5min de ejecución a cámara rápida para que pod
 _En algunas partes puede verse al robot saltar de una posición a otra, esto se debe a la mala conexión a internet._
 
 <div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="https://emalm.com/?v=1TJBh"></iframe>
+  <iframe class="embed-responsive-item" src="https://jmp.sh/BVIstfFw"></iframe>
 </div>
 
 [Vuelve al blog](../)
