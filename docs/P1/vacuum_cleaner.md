@@ -48,8 +48,9 @@ El video trata de alrededor de 5min de ejecución a cámara rápida para que pod
 
 _En algunas partes puede verse al robot saltar de una posición a otra, esto se debe a la mala conexión a internet._
 
-<div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="https://jumpshare.com/embed/8W8Ov2bStnq5Zf5ngIZe"></iframe>
+<div style="position: relative; padding-bottom: 56.25%; height: 0;">
+  <iframe src="https://jumpshare.com/embed/8W8Ov2bStnq5Zf5ngIZe" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+  </iframe>
 </div>
 
 [Vuelve al blog](../)
