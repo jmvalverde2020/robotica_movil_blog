@@ -45,4 +45,4 @@ Por último os muestro un video de los primeros minutos de ejecución del códig
 
 ![Video del funcionamiento](./media/Video.PNG)
 
-[Vuelve al blog](../)
+[Vuelve al blog](./)
