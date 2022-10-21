@@ -38,6 +38,6 @@ Como veremos a continuación, la implementación usada ha dado un buen rendimien
 
 Esta implementación ha obtenido una puntuación de 87, como podemos ver aquí
 
-![Puntuación del recorrido](./images/Evaulacion.PNG)
+![Puntuación del recorrido](./images/Evaluacion.PNG)
 
 [Vuelve al blog](./)
