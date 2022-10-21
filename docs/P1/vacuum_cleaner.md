@@ -48,7 +48,15 @@ El video trata de alrededor de 5min de ejecución a cámara rápida para que pod
 
 _En algunas partes puede verse al robot saltar de una posición a otra, esto se debe a la mala conexión a internet._
 
-https://user-images.githubusercontent.com/90764430/197266678-f454ffa5-78eb-4aca-a600-68bf000dda3e.mp4
+<iframe
+    width="640"
+    height="480"
+    src="https://drive.google.com/file/d/1ntEG9PLQ5Jy8CvPsx3WR6oiTrp91ERsP/view?usp=sharing"
+    frameborder="0"
+    allow="autoplay; encrypted-media"
+    allowfullscreen
+>
+</iframe>
 
 
 [Vuelve al blog](./)
