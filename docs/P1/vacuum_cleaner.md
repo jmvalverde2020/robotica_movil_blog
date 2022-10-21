@@ -43,6 +43,6 @@ Esta implementación ha obtenido una puntuación de 87, como podemos ver aquí
 ## Video
 Por último os muestro un video de los primeros minutos de ejecución del código.
 
-![Video del funcionamiento](./media/Video.PNG)
+![Video del funcionamiento](./media/Video.mp4)
 
 [Vuelve al blog](./)
