@@ -34,10 +34,15 @@ Otras formas de implementar el código podrían ser haciendo que el robot forme 
 ## Rendimiento de la implementación
 Como veremos a continuación, la implementación usada ha dado un buen rendimiento, llegando a casi todas las zonas del escenario en alrededor de 1h.
 
-![Visualización del recorrido del robot](./images/Visualizacion.PNG)
+![Visualización del recorrido del robot](./media/Visualizacion.PNG)
 
 Esta implementación ha obtenido una puntuación de 87, como podemos ver aquí
 
-![Puntuación del recorrido](./images/Evaluacion.PNG)
+![Puntuación del recorrido](./media/Evaluacion.PNG)
 
-[Vuelve al blog](./)
+## Video
+Por último os muestro un video de los primeros minutos de ejecución del código.
+
+![Video del funcionamiento](./media/Video.PNG)
+
+[Vuelve al blog](../)
