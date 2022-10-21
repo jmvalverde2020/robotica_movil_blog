@@ -59,4 +59,4 @@ _En algunas partes puede verse al robot saltar de una posición a otra, esto se 
 </iframe>
 
 
-[Vuelve al blog](./)
+[Vuelve al blog](../)
