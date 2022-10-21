@@ -15,4 +15,4 @@ Pincha en cada una para ver ese ejercicio
 
 La primera práctica consiste en el desarrollo de un código para evitar que un robot simulado en Gazebo choque con los obstáculos y limpie la mayor cantidad 
 de espacio posible.
-* [Vacuum Cleaner](./vacuum_cleaner.md).
+* [Vacuum Cleaner](./P1/vacuum_cleaner.md).
