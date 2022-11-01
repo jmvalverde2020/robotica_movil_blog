@@ -16,3 +16,10 @@ Pincha en cada una para ver ese ejercicio
 La primera práctica consiste en el desarrollo de un código para evitar que un robot simulado en Gazebo choque con los obstáculos y limpie la mayor cantidad 
 de espacio posible.
 * [Vacuum Cleaner](./P1/vacuum_cleaner.md).
+
+
+### Práctica 2
+
+La segunda práctica consiste en programar un coche de carreras para que siga una linea, aplicando distintas herramientas para hacer que el movimiento sea lo 
+más suave y eficiente posible.
+* [Follow Line](./P2/follow_line.md).
