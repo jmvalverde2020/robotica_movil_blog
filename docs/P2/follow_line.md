@@ -48,7 +48,7 @@ Con valores de Kp = 0.5, Kd = 0.8 y Ki = 0.001, y con una velocidad lineal máxi
 
 Aquí una foto ya que desafortunadamente no pude grabar un vídeo:
 
-![Vuelta en 49 segundos](./media/vuelta_49seg.PNG)
+![Vuelta en 49 segundos](./media/Vuelta_49seg.PNG)
 
 Esta ya es una buena marca.
 
