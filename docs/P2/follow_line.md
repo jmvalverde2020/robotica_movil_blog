@@ -14,4 +14,30 @@ Una vez definidos los límites solo hay que aplicarlos a la imagen y quedará al
 
 ![Linea filtrada](./media/Linea_roja.PNG)
 
+## PID
+Una vez filtrada la linea, debemos escoger los puntos de referencia que tomaremos.
+
+Estos puntos de referencia nos servirán para tener una estimación de cuánto error hay y así poder usar el PID para arreglarlo y centrar el coche de forma progresiva, 
+haciendo el movimiento mucho más fluído.
+
+Para esta práctica he pensado en 3 puntos distintos de referencia, a distintas distancias del coche.
+
+![Puntos de referencia](./media/ref_points.PNG)
+
+Los tres puntos corresponden al punto medio de la linea roja y la linea vertical azul corresponde con la mitad de la pantalla.
+
+Para diseñar el PID, usamos los puntos de referencia y calculamos como de lejos están de la mitad de la pantalla, ya que cuando el coche vaya recto, estos deberían 
+coincidir.
+
+A este error obtenido le aplicamos distintas operaciones según el tipo de controlador.
+
+En este caso, al ser un PID, significa que contiene parte proporcional, derivativa e integral.
+
+Por lo tanto, deberemos sumar cada una de las partes:
+
+  > Proporcional: error * Kp (ganancia proporcional)
+  > Derivativa: (error<sub>t</sub> - error<sub>t-1</sub>) * Kd (ganancia derivativa)
+  > Integral: $$\sum_{i=1}^n error<sub>i</sub>$$ * Ki (ganancia integral)
+
+Kp, Kd y Ki son constantes que tendremos que probar a cambiar sus valores hasta obtener el resultado esperado
 
