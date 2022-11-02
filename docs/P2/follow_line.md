@@ -41,3 +41,33 @@ Por lo tanto, deberemos sumar cada una de las partes:
 
 Kp, Kd y Ki son constantes que tendremos que probar a cambiar sus valores hasta obtener el resultado esperado
 
+Una vez obtenido el valor del PID, definimos un valor máximo de la velocidad, y un valor máximo arbitrario del PID para hacer una regla de tres y escalarlo a 
+la velocidad angular.
+
+Con valores de Kp = 0.5, Kd = 0.8 y Ki = 0.001, y con una velocidad lineal máxima de 15 y una velocidad angular máxima de 10, y 480 muestras, el coche ha conseguido completar el circuito base en 49 segundos.
+
+Aquí una foto ya que desafortunadamente no pude grabar un vídeo:
+
+![Vuelta en 49 segundos](./media/vuelta_49seg.PNG)
+
+Esta ya es una buena marca.
+
+Sin embargo, ¿Podría hacerlo más rápido?
+
+Cabe destacar que otra información que falta es entre cuanto tenemos que dividir la escala de la velocidad. A mayor número, más cantidad de muestras y por tanto, más precisión.
+
+Por lo tanto al poner el número de muestras en 5000, deberemos subir bastante las ganancias, pero obtendremos una mayor precisión con los valores correctos.
+
+Tras numerosas pruebas, he conseguido un comportamiento muy estable con un tiempo de vuelta de unos 50 segundos.
+
+Los valores usados son:
+- Kp = 2.1
+- Kd = 6.2
+- Ki = 1.9
+- Velocidad lineal máxima = 15
+- Velocidad angular máxima = 15 (en ambos sentidos)
+- Numero de muestras = 5000
+
+Aquí un vídeo completando el primer circuito:
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://jumpshare.com/embed/mhceLB5J6H6GBezDznAa" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
