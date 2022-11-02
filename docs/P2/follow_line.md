@@ -61,9 +61,9 @@ Por lo tanto al poner el número de muestras en 5000, deberemos subir bastante l
 Tras numerosas pruebas, he conseguido un comportamiento muy estable con un tiempo de vuelta de unos 50 segundos.
 
 Los valores usados son:
-- Kp = 2.1
+- Kp = 2.7
 - Kd = 6.2
-- Ki = 1.9
+- Ki = 0.19
 - Velocidad lineal máxima = 15
 - Velocidad angular máxima = 15 (en ambos sentidos)
 - Numero de muestras = 5000
