@@ -12,6 +12,6 @@ Para el filtro de color lo más sencillo es usar la libreria de python de OpenCV
 
 Una vez definidos los límites solo hay que aplicarlos a la imagen y quedará algo como esto:
 
-![Linea filtrada](./media/Linea_roja.png)
+![Linea filtrada](./media/Linea_roja.PNG)
 
 
