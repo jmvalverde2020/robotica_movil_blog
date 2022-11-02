@@ -37,7 +37,7 @@ Por lo tanto, deberemos sumar cada una de las partes:
 
   1. Proporcional: error * Kp (ganancia proporcional)
   1. Derivativa: (error<sub>t</sub> - error<sub>t-1</sub>) * Kd (ganancia derivativa)
-  1. Integral: &sigmaerror<sub>i</sub>$$ * Ki (ganancia integral)
+  1. Integral: Σerror<sub>i</sub> * Ki (ganancia integral)
 
 Kp, Kd y Ki son constantes que tendremos que probar a cambiar sus valores hasta obtener el resultado esperado
 
