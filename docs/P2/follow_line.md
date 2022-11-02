@@ -35,9 +35,9 @@ En este caso, al ser un PID, significa que contiene parte proporcional, derivati
 
 Por lo tanto, deberemos sumar cada una de las partes:
 
-  > Proporcional: error * Kp (ganancia proporcional)
-  > Derivativa: (error<sub>t</sub> - error<sub>t-1</sub>) * Kd (ganancia derivativa)
-  > Integral: $$\sum_{i=1}^n error<sub>i</sub>$$ * Ki (ganancia integral)
+  1. Proporcional: error * Kp (ganancia proporcional)
+  1. Derivativa: (error<sub>t</sub> - error<sub>t-1</sub>) * Kd (ganancia derivativa)
+  1. Integral: &sigmaerror<sub>i</sub>$$ * Ki (ganancia integral)
 
 Kp, Kd y Ki son constantes que tendremos que probar a cambiar sus valores hasta obtener el resultado esperado
 
