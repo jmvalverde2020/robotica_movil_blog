@@ -23,3 +23,9 @@ de espacio posible.
 La segunda práctica consiste en programar un coche de carreras para que siga una linea, aplicando distintas herramientas para hacer que el movimiento sea lo 
 más suave y eficiente posible.
 * [Follow Line](./P2/follow_line.md).
+
+
+### Práctica 3
+
+La tercera práctica consiste en programar un coche de carreras, con el método VFF (Virtual Force Field), capaz de navegar y esquivar obstáculos en un circuito
+* [Obstacle Avoidance](./P3/obstacle_avoidance.md)
