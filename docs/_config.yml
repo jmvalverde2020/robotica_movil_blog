@@ -1,3 +1,4 @@
 title: Blog Robótica Móvil
 description: Blog para las prácticas de Robótica Móvil
 theme: jekyll-theme-leap-day
+use_math: true
