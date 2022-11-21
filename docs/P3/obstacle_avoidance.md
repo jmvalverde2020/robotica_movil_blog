@@ -23,6 +23,10 @@ Lo primero es que obtener las coordenadas del objetivo respecto al coche no es s
 
 Por lo tanto el primer paso es acotar el módulo del objetivo para que no sobrepase cierto umbral, este umbral dependerá de cada implementación y en mi caso coincide con la velocidad máxima que quiero que alcanze el vehículo. Esto es porque al obtener las componentes con el nuevo vector acotado, en los casos extremos, la atracción no sobrepasará la velocidad máxima.
 
+El comportamiento de este vector será el de una función lineal acotada como esta:
+
+![Función de vector de atracción](./media/Funcion_atraccion.PNG)
+
 Teniendo esto en cuenta, solo resta un problema:
 
 El caso en el que el objetivo está detrás del coche. En este caso, calcular el ángulo puede ser un problema. 
@@ -40,7 +44,7 @@ Lo primero fue entender que la media de las lecturas devuelve el sitio con menos
 
 Para esta tarea creé una función similar a $$15 \over e^{2x}$$ con la cual daba más importancia a las medidas pequeñas que a las grandes, y a la hora de hacer la media, destacarían más los obstáculos.
 
-![Función de importancia de las medidas del laser]()
+![Función de importancia de las medidas del laser](./media/Funcion_repulsion.PNG)
 
 Ya solo resta obtener las componentes de las medidas con la función aplicada y hacer la media de estas.
 
