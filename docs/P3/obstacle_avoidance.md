@@ -38,7 +38,7 @@ Este elemento fue el que más me costó entender para obtener una buena forma de
 
 Lo primero fue entender que la media de las lecturas devuelve el sitio con menos obstáculos (ya que las medidas serán mayores por no tener un objeto cerca, y por lo tanto tendrán más peso en la media), en ese momento ví que realmente lo que buscaba era lo contrario, que los obstáculos tuvieran más peso para, al obtener la media, tener el vector de repulsión.
 
-Para esta tarea creé una función similar a $15 \over e^{2x}$ con la cual daba más importancia a las medidas pequeñas que a las grandes, y a la hora de hacer la media, destacarían más los obstáculos.
+Para esta tarea creé una función similar a $$ 15 \over e^{2x} $$ con la cual daba más importancia a las medidas pequeñas que a las grandes, y a la hora de hacer la media, destacarían más los obstáculos.
 
 ![Función de importancia de las medidas del laser]()
 
