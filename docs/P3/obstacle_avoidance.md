@@ -38,6 +38,40 @@ Este elemento fue el que más me costó entender para obtener una buena forma de
 
 Lo primero fue entender que la media de las lecturas devuelve el sitio con menos obstáculos (ya que las medidas serán mayores por no tener un objeto cerca, y por lo tanto tendrán más peso en la media), en ese momento ví que realmente lo que buscaba era lo contrario, que los obstáculos tuvieran más peso para, al obtener la media, tener el vector de repulsión.
 
-Para esta tarea creé una función similar a $15 \over e^2x$
+Para esta tarea creé una función similar a $15 \over e^{2x}$, con la cual daba más importancia a las medidas pequeñas que a las grandes, y a la hora de hacer la media, destacarían más los obstáculos.
+
+![Función de importancia de las medidas del laser]()
+
+Ya solo resta obtener las componentes de las medidas con la función aplicada y hacer la media de estas.
+
+El resultado es el vector de repulsión.
+
+  -[x] Vector de atracción
+  -[x] Vector de repulsión
+  -[] Relación entre repulsión y atracción
+
+
+## Relación entre repulsión y atracción
+Esta parte se basa en prueba y error.
+
+Una vez hemos conseguido implementar de forma confiable los vectores de repulsión y de atracción, encontrar la realción adecuada entre ellos es un proceso de prueba y error, multiplicando ambos vectores por una variable y comprobando el comportamiento de la suma de ambos vectores multiplicados.
+
+En mi caso, con una relación 1 / 1 tenía un comportamiento muy robusto excepto con un coche justo en frente, que no giraba lo suficiente y lo rozaba.
+
+Por lo tanto la solución fue aumentar la variable del vector de repulsión para darle más peso en el vector resultante.
+
+Al final, la relación entre vector atracción / vector repulsión fue de 1 / 1.5.
+
+Por último, hemos encontrado la relación, y con esto, hemos terminado el código.
+
+  -[x] Vector de atracción
+  -[x] Vector de repulsión
+  -[x] Relación entre repulsión y atracción
+  
+## Video demostración
+Aquí un video de una vuelta completa:
+
+![Video vuelta]
+
 
 [Vuelve al blog](../)
