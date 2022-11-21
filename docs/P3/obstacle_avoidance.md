@@ -9,9 +9,9 @@ la fuerza resultante que será la que mueva el coche, permitiendo seguir el obje
 
 ## Metodología
 El método VFF se sirve principalmente de 3 elementos:
-  -[] Vector de atracción
-  -[] Vector de repulsión
-  -[] Relación entre repulsión y atracción
+  - [] Vector de atracción
+  - [] Vector de repulsión
+  - [] Relación entre repulsión y atracción
  
 La correcta implementación de los 3 elementos dará un comportamiento deseable, sin embargo, implementarlos correctamente y conseguir un 
 comportamiento robusto ha sido complicado.
@@ -29,16 +29,16 @@ El caso en el que el objetivo está detrás del coche. En este caso, calcular el
 La solución a la que he llegado ha sido que al sobrepasar el objetivo, cambio el signo de las componentes para que la resultante apunte correctamente.
 
 Con esto el vector de atracción está implementado.
-  -[x] Vector de atracción
-  -[] Vector de repulsión
-  -[] Relación entre repulsión y atracción
+  - [x] Vector de atracción
+  - [] Vector de repulsión
+  - [] Relación entre repulsión y atracción
 
 ## Vector de repulsión
 Este elemento fue el que más me costó entender para obtener una buena forma de implementarlo, sobretodo debido a pensar de forma errónea cómo funciona.
 
 Lo primero fue entender que la media de las lecturas devuelve el sitio con menos obstáculos (ya que las medidas serán mayores por no tener un objeto cerca, y por lo tanto tendrán más peso en la media), en ese momento ví que realmente lo que buscaba era lo contrario, que los obstáculos tuvieran más peso para, al obtener la media, tener el vector de repulsión.
 
-Para esta tarea creé una función similar a $15 \over e^{2x}$, con la cual daba más importancia a las medidas pequeñas que a las grandes, y a la hora de hacer la media, destacarían más los obstáculos.
+Para esta tarea creé una función similar a $$15 \over e^{2x}$$, con la cual daba más importancia a las medidas pequeñas que a las grandes, y a la hora de hacer la media, destacarían más los obstáculos.
 
 ![Función de importancia de las medidas del laser]()
 
@@ -46,9 +46,9 @@ Ya solo resta obtener las componentes de las medidas con la función aplicada y 
 
 El resultado es el vector de repulsión.
 
-  -[x] Vector de atracción
-  -[x] Vector de repulsión
-  -[] Relación entre repulsión y atracción
+  - [x] Vector de atracción
+  - [x] Vector de repulsión
+  - [] Relación entre repulsión y atracción
 
 
 ## Relación entre repulsión y atracción
@@ -64,9 +64,9 @@ Al final, la relación entre vector atracción / vector repulsión fue de 1 / 1.
 
 Por último, hemos encontrado la relación, y con esto, hemos terminado el código.
 
-  -[x] Vector de atracción
-  -[x] Vector de repulsión
-  -[x] Relación entre repulsión y atracción
+  - [x] Vector de atracción
+  - [x] Vector de repulsión
+  - [x] Relación entre repulsión y atracción
   
 ## Video demostración
 Aquí un video de una vuelta completa:
