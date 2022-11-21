@@ -9,9 +9,9 @@ la fuerza resultante que será la que mueva el coche, permitiendo seguir el obje
 
 ## Metodología
 El método VFF se sirve principalmente de 3 elementos:
-  - [] Vector de atracción
-  - [] Vector de repulsión
-  - [] Relación entre repulsión y atracción
+  - [ ] Vector de atracción
+  - [ ] Vector de repulsión
+  - [ ] Relación entre repulsión y atracción
  
 La correcta implementación de los 3 elementos dará un comportamiento deseable, sin embargo, implementarlos correctamente y conseguir un 
 comportamiento robusto ha sido complicado.
@@ -30,8 +30,8 @@ La solución a la que he llegado ha sido que al sobrepasar el objetivo, cambio e
 
 Con esto el vector de atracción está implementado.
   - [x] Vector de atracción
-  - [] Vector de repulsión
-  - [] Relación entre repulsión y atracción
+  - [ ] Vector de repulsión
+  - [ ] Relación entre repulsión y atracción
 
 ## Vector de repulsión
 Este elemento fue el que más me costó entender para obtener una buena forma de implementarlo, sobretodo debido a pensar de forma errónea cómo funciona.
@@ -48,7 +48,7 @@ El resultado es el vector de repulsión.
 
   - [x] Vector de atracción
   - [x] Vector de repulsión
-  - [] Relación entre repulsión y atracción
+  - [ ] Relación entre repulsión y atracción
 
 
 ## Relación entre repulsión y atracción
