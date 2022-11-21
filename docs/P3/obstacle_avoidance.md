@@ -71,7 +71,7 @@ Por último, hemos encontrado la relación, y con esto, hemos terminado el códi
 ## Video demostración
 Aquí un video de una vuelta completa:
 
-![Video vuelta]
+![Video vuelta]()
 
 
 [Vuelve al blog](../)
