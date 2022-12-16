@@ -29,3 +29,8 @@ más suave y eficiente posible.
 
 La tercera práctica consiste en programar un coche de carreras, con el método VFF (Virtual Force Field), capaz de navegar y esquivar obstáculos en un circuito
 * [Obstacle Avoidance](./P3/obstacle_avoidance.md)
+
+### Práctica 4
+
+La cuarta y última práctica obligatoria consiste en programar un taxi capaz de, al recibir un objetivo, encontrar el camino más corto a este, y seguirlo hasta llegar a la meta.
+* [Global Navigation](./P4/global_navigation.md)
